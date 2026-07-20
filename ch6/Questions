@@ -1,0 +1,42 @@
+Chapter 6 — Conditional expressions
+if/elif/else — used in every problem
+Q1
+Take a number and print whether it is positive, negative, or zero.
+
+easy
+Q2
+Check if a number is even or odd. Then check if it is also divisible by 5.
+
+n = 30  # even and divisible by 5
+n = 7   # odd, not divisible by 5
+easy
+Q3
+Take three numbers and find the largest using only if/elif/else (no max()).
+
+easy
+Q4
+Build a simple grade calculator. Take marks out of 100 and print the grade.
+
+# 90-100 → A
+# 80-89  → B
+# 70-79  → C
+# 60-69  → D
+# below  → F
+easy
+Q5
+Check if a year is a leap year. A year is a leap year if divisible by 4, except centuries must be divisible by 400.
+
+2000 → leap year
+1900 → not a leap year
+2024 → leap year
+medium
+Q6
+FizzBuzz — print numbers 1 to 30. For multiples of 3 print "Fizz", for multiples of 5 print "Buzz", for both print "FizzBuzz".
+
+This is LeetCode #412!LeetCode #412 - FizzBuzz
+easy
+Q7
+Take two strings and check if the first string can be formed using characters from the second string.
+
+s1 = "hello", s2 = "worldhell"  → True
+s1 = "hello", s2 = "world"      → False
