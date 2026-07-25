@@ -16,7 +16,6 @@ while i < len(num):
         i+=1
 
 while j <= count:
-    result.append(0)
     j+=1
 
 print(result)
